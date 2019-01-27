@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hackertronix.walldo.io.example.hackertronix.walldo.MainActivity">
+
+   <ImageView
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:id="@+id/bannerView"
+       android:src="@drawable/signin_bg"
+       android:scaleType="fitCenter"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textSize="133sp"
+            android:id="@+id/title_tv"
+            android:text="@string/walldo"
+            android:gravity="center"
+            android:layout_marginTop="85dp"
+            android:shadowColor="#373737"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="30"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            android:id="@+id/subtitle_tv"
+            android:background="@drawable/subtitle"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/signin_button"
+            android:background="@drawable/sign_in"
+            android:contentDescription="@string/sign_in_with_google"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="89dp"
+            android:elevation="10dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

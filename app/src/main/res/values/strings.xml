@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Walldo</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="widget_name">Walldo</string>
+    <string name="favorites">Favorites</string>
+    <string name="set_wallpaper">Set</string>
+    <string name="browse">Browse</string>
+    <string name="favourites">Favourites</string>
+    <string name="walldo">Walldo</string>
+    <string name="favorites_widget">Favorites</string>
+    <string name="add_a_favorite">Add a favorite</string>
+    <string name="mark_as_favorite">mark as favorite</string>
+    <string name="set_current_image_as_wallpaper">set current image as wallpaper</string>
+    <string name="full_bleed_wallpaper">this is the full bleed wallpaper</string>
+    <string name="sign_in_with_google">sign in with google</string>
+    <string name="you_are_now_in_the_favorites_section">You are now in the favorites section</string>
+    <string name="you_are_now_in_the_browse_section">You are now in the browse section</string>
+    <string name="the_image_is_being_downloaded_give_it_a_while">the image is being downloaded, give it a while</string>
+    <string name="google_signin_failed">Hey, this failure is possibly due to a mismatch of SHA-1 and poorly configured googleservice.json file. Create a new project on the Firebase Console and add the google-services.json file in the project and try a rebuild</string>
+    <string name="signing_in">Signing in....</string>
+    <string name="network_error_message">Walldo needs internet connectivity. Please retry after connecting.</string>
+    <string name="network_error_title">Whoa there chief!</string>
+    <string name="walldo_description">Hey There, Welcome to Walldo</string>
+    <string name="retry">Retry</string>
+    <string name="sign_in_failed">Google Sign in failed</string>
+    <string name="set_wallpaper_confirmation">Do you want to set this image as your wallpaper?</string>
+    <string name="yes">Yes</string>
+    <string name="image_set">Image set as wallpaper!</string>
+    <string name="error_occured">Error occurred</string>
+    <string name="hey_there">Hey There</string>
+    <string name="beautiful_wallpapers">BEAUTIFUL WALLPAPERS</string>
+</resources>
